@@ -1,0 +1,74 @@
+{
+    "th6": {
+        "primary": "#993333",
+        "secondary": "#663333"
+    },
+    "th7": {
+        "primary": "#ff75dd",
+        "secondary": "#994599"
+    },
+    "th8": {
+        "primary": "#333399",
+        "secondary": "#333366"
+    },
+    "th9": {
+        "primary": "#ff9900",
+        "secondary": "#773300"
+    },
+    "th95": {
+        "primary": "#009973",
+        "secondary": "#006643"
+    },
+    "th10": {
+        "primary": "#96b300",
+        "secondary": "#336600"
+    },
+    "th11": {
+        "primary": "#591400",
+        "secondary": "#591400"
+    },
+    "alco": {
+        "primary": "#C89600",
+        "secondary": "#336600"
+    },
+    "th12": {
+        "primary": "#4169E1",
+        "secondary": "#00008B"
+    },
+    "th125": {
+        "primary": "#7D3884",
+        "secondary": "#590000"
+    },
+    "th128": {
+        "primary": "#00C8C8",
+        "secondary": "#006666"
+    },
+    "th13": {
+        "primary": "#4A808C",
+        "secondary": "#004545"
+    },
+    "th14": {
+        "primary": "#AA7777",
+        "secondary": "#614545"
+    },
+    "th143": {
+        "primary": "#B6423C",
+        "secondary": "#660000"
+    },
+    "th15": {
+        "primary": "#6A47BE",
+        "secondary": "#000066"
+    },
+    "th16": {
+        "primary": "#176E0E",
+        "secondary": "#006600"
+    },
+    "th165": {
+        "primary": "#AE11D5",
+        "secondary": "#740c8d"
+    },
+    "th17": {
+        "primary": "#190E0E",
+        "secondary": "#190e0e"
+    }
+}
