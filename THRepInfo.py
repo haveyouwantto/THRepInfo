@@ -111,7 +111,7 @@ def generateImage(rpy, dest):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument('-o', '--output', type=str,
-                        help='输入文件')
+                        help='输出文件')
     parser.add_argument('file', type=str,
                         help='输入文件')
     args = parser.parse_args()
