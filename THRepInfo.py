@@ -7,7 +7,7 @@ import threp
 from PIL import Image, ImageDraw, ImageFont
 
 
-def generateImage(rpy, dest):
+def generateImage(rpy, dest, font):
     width, height = 480, 640
 
     rep = threp.THReplay(rpy)
@@ -41,9 +41,11 @@ def generateImage(rpy, dest):
         def __init__(self, color):
             self.primary = color
 
-    title_font = ImageFont.truetype('simhei.ttf', 36)
-    info_font = ImageFont.truetype('simhei.ttf', 24)
-    small_font = ImageFont.truetype('simhei.ttf', 16)
+    fontname = 'simhei.ttf' if font is None else font
+    print(fontname)
+    title_font = ImageFont.truetype(fontname, 36)
+    info_font = ImageFont.truetype(fontname, 24)
+    small_font = ImageFont.truetype(fontname, 16)
     img = Image.new('RGBA', (width, height), '#ffffff')
     draw = ImageDraw.Draw(img)
 
@@ -112,7 +114,8 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument('-o', '--output', type=str,
                         help='输出文件')
+    parser.add_argument('-f', '--font', type=str, help='字体')
     parser.add_argument('file', type=str,
                         help='输入文件')
     args = parser.parse_args()
-    generateImage(args.file, args.output)
+    generateImage(args.file, args.output, args.font)
